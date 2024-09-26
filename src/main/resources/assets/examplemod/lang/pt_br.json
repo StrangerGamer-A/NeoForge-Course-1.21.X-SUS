@@ -1,4 +1,6 @@
 {
   "item.mccourse.black_opal": "Opala Negra",
-  "item.mccourse.raw_black_opal": "Opala Negra Crua"
+  "item.mccourse.raw_black_opal": "Opala Negra Crua",
+
+  "itemGroup.mccourse.black_opal_items_tab": "Adições do MCCourse"
 }

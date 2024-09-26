@@ -1,5 +1,6 @@
 package net.strangergamer.mccourse;
 
+import net.strangergamer.mccourse.item.ModCreativeModeTabs;
 import net.strangergamer.mccourse.item.ModItems;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
@@ -30,6 +31,8 @@ public class MCCourseMod {
     public MCCourseMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 

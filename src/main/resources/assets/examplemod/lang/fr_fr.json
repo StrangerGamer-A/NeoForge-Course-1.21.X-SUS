@@ -1,4 +1,6 @@
 {
   "item.mccourse.black_opal": "Opale noire",
-  "item.mccourse.raw_black_opal": "Opale noire brute"
+  "item.mccourse.raw_black_opal": "Opale noire brute",
+
+  "itemGroup.mccourse.black_opal_items_tab": "Ajouts à MCCourse"
 }
