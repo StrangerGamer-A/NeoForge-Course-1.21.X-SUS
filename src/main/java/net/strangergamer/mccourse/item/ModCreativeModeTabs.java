@@ -7,6 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.strangergamer.mccourse.MCCourseMod;
+import net.strangergamer.mccourse.block.ModBlocks;
 
 import java.util.function.Supplier;
 
@@ -21,6 +22,9 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.BLACK_OPAL);
                         pOutput.accept(ModItems.RAW_BLACK_OPAL);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_BLOCK);
+                        pOutput.accept(ModBlocks.RAW_BLACK_OPAL_BLOCK);
+
 
                     }).build());
 
