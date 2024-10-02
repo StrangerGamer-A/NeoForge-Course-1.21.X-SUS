@@ -4,6 +4,11 @@
 
   "block.mccourse.black_opal_block": "Bloco de Opala Negra",
   "block.mccourse.raw_black_opal_block": "Bloco de Opala Negra Crua",
+  "block.mccourse.black_opal_ore": "Minério de Opala Negra",
+  "block.mccourse.black_opal_deepslate_ore": "Minério de Opala Negra de Deepslate",
+  "block.mccourse.black_opal_end_ore": "Minério de Opala Negra de End",
+  "block.mccourse.black_opal_nether_ore": "Minério Opala Negra de Nether",
+
 
   "itemGroup.mccourse.black_opal_items_tab": "Adições do MCCourse"
 }
