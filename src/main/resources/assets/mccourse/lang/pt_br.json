@@ -2,8 +2,11 @@
   "item.mccourse.black_opal": "Opala Negra",
   "item.mccourse.raw_black_opal": "Opala Negra Crua",
 
+  "item.mccourse.chainsaw": "Motosserra",
+
   "block.mccourse.black_opal_block": "Bloco de Opala Negra",
   "block.mccourse.raw_black_opal_block": "Bloco de Opala Negra Crua",
+
   "block.mccourse.black_opal_ore": "Minério de Opala Negra",
   "block.mccourse.black_opal_deepslate_ore": "Minério de Opala Negra de Deepslate",
   "block.mccourse.black_opal_end_ore": "Minério de Opala Negra de End",
