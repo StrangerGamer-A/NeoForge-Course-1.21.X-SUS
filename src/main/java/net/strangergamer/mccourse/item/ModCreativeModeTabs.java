@@ -22,17 +22,15 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.BLACK_OPAL);
                         pOutput.accept(ModItems.RAW_BLACK_OPAL);
-
                         pOutput.accept(ModItems.CHAINSAW);
-
+                        pOutput.accept(ModItems.TOMATO);
+                        pOutput.accept(ModItems.FROSTFIRE_ICE);
                         pOutput.accept(ModBlocks.BLACK_OPAL_BLOCK);
                         pOutput.accept(ModBlocks.RAW_BLACK_OPAL_BLOCK);
-
                         pOutput.accept(ModBlocks.BLACK_OPAL_ORE);
                         pOutput.accept(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE);
                         pOutput.accept(ModBlocks.BLACK_OPAL_END_ORE);
                         pOutput.accept(ModBlocks.BLACK_OPAL_NETHER_ORE);
-
                         pOutput.accept(ModBlocks.MAGIC_BLOCK);
 
 
