@@ -11,5 +11,10 @@
   "block.mccourse.black_opal_deepslate_ore": "Minério de Opala Negra de Deepslate",
   "block.mccourse.black_opal_end_ore": "Minério de Opala Negra de End",
   "block.mccourse.black_opal_nether_ore": "Minério Opala Negra de Nether",
+  "tooltip.mccourse.chainsaw.tooltip.shift": "Pressione §eShift§r para obter mais informações",
+  "tooltip.mccourse.chainsaw.tooltip.1": "Esta motosserra é incrível e corta árvores!",
+  "tooltip.mccourse.chainsaw.tooltip.2": "§oMotosserra go vroom!§r",
+  "tooltip.mccourse.magic_block.tooltip.1": "Este Bloco é §9MAGICAL§r",
+  "tooltip.mccourse.tomato.1": "Tomate; Tomate",
   "itemGroup.mccourse.black_opal_items_tab": "Adições do MCCourse"
 }

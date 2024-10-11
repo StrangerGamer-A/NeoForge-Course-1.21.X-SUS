@@ -1,5 +1,8 @@
 package net.strangergamer.mccourse.block.custom;
 
+import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.TooltipFlag;
 import net.strangergamer.mccourse.item.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
@@ -14,6 +17,9 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
+
+import java.util.List;
+
 
 public class MagicBlock extends Block {
     public MagicBlock(Properties properties) {
@@ -37,5 +43,10 @@ public class MagicBlock extends Block {
     private boolean isValidItem(ItemStack item) {
         return item.getItem() == ModItems.RAW_BLACK_OPAL.get()
                 || item.getItem() == Items.COAL || item.getItem() == Items.DANDELION;
+    }
+    @Override
+    public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTootipComponents, TooltipFlag pTooltipFlag) {
+        pTootipComponents.add(Component.translatable("tooltip.mccourse.magic_block.tooltip.1"));
+        super.appendHoverText(pStack, pContext, pTootipComponents, pTooltipFlag);
     }
 }
