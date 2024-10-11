@@ -11,10 +11,12 @@
   "block.mccourse.black_opal_deepslate_ore": "Minerai d’opale noire Deepslate",
   "block.mccourse.black_opal_end_ore": "Minerai d’opale noire du End",
   "block.mccourse.black_opal_nether_ore": "Minerai d’opale noire du Nether",
+  "block.mccourse.black_opal_stairs": "Escalier en opale noire",
+  "block.mccourse.black_opal_slab": "Dalle Opale Noire",
   "tooltip.mccourse.chainsaw.tooltip.shift": "Appuyez sur §eShift§r pour plus d’informations",
   "tooltip.mccourse.chainsaw.tooltip.1": "Cette tronçonneuse est géniale et coupera des arbres !",
   "tooltip.mccourse.chainsaw.tooltip.2": "§oTronçonneuse go vroum !§r",
   "tooltip.mccourse.magic_block.tooltip.1": "Ce bloc est très, très §9MAGIQUE§r",
   "tooltip.mccourse.tomato.1": "Tomate; Tomate",
-  "itemGroup.mccourse.black_opal_items_tab": "Ajouts à MCCourse"
+  "itemGroup.mccourse.black_opal_items_tab": "Ajouts à MCCourse",
 }
