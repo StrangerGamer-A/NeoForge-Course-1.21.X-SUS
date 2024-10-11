@@ -4,6 +4,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.TooltipFlag;
 import net.strangergamer.mccourse.item.ModItems;
+import net.strangergamer.mccourse.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -41,8 +42,7 @@ public class MagicBlock extends Block {
         super.stepOn(pLevel, pPos, pState, pEntity);
     }
     private boolean isValidItem(ItemStack item) {
-        return item.getItem() == ModItems.RAW_BLACK_OPAL.get()
-                || item.getItem() == Items.COAL || item.getItem() == Items.DANDELION;
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
     @Override
     public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTootipComponents, TooltipFlag pTooltipFlag) {
