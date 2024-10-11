@@ -41,6 +41,7 @@ public class ChainsawItem extends Item {
         if(Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.translatable("tooltip.mccourse.chainsaw.tooltip.1"));
             pTooltipComponents.add(Component.translatable("tooltip.mccourse.chainsaw.tooltip.2"));
+            pTooltipComponents.add(Component.translatable("tooltip.mccourse.chainsaw.tooltip.3"));
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.mccourse.chainsaw.tooltip.shift"));
         }

@@ -13,9 +13,12 @@
   "block.mccourse.black_opal_nether_ore": "Nether Black Opal Ore",
   "block.mccourse.black_opal_stairs": "Black Opal Stairs",
   "block.mccourse.black_opal_slab": "Black Opal Slab",
+  "block.mccourse.black_opal_button": "Black Opal Button",
+  "block.mccourse.black_opal_pressure_plate": "Black Opal Pressure Plate",
   "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more Information",
   "tooltip.mccourse.chainsaw.tooltip.1": "This chainsaw is awesome and will cut down trees!",
-  "tooltip.mccourse.chainsaw.tooltip.2": "§oChainsaw go vroom!§r",
+  "tooltip.mccourse.chainsaw.tooltip.2": "§oChainsaw go vroom before going boom!§r",
+  "tooltip.mccourse.chainsaw.tooltip.3": "§kcisuzdvibc hdfbx§r",
   "tooltip.mccourse.magic_block.tooltip.1": "This Block is very very §9MAGICAL§r",
   "tooltip.mccourse.tomato.1": "Tomato; Tomato",
   "itemGroup.mccourse.black_opal_items_tab": "MCCourse Additions"

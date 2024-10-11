@@ -34,6 +34,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.MAGIC_BLOCK);
                         pOutput.accept(ModBlocks.BLACK_OPAL_STAIRS);
                         pOutput.accept(ModBlocks.BLACK_OPAL_SLAB);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_PRESSURE_PLATE);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_BUTTON);
 
 
 
