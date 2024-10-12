@@ -39,6 +39,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.BLACK_OPAL_FENCE);
                         pOutput.accept(ModBlocks.BLACK_OPAL_FENCE_GATE);
                         pOutput.accept(ModBlocks.BLACK_OPAL_WALL);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_DOOR);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_TRAPDOOR);
 
 
 
